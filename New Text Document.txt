@@ -1,0 +1,39 @@
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+}
+margin:0;
+width:60%;
+
+}
+.slider{
+overflow:hidden;
+height:350px;
+}
+.slider figure div{
+float:left;
+width:20%;
+
+
+}
+.slider figure img{
+width:100%;
+float:left;
+}
+.slider figure {
+position:relative;
+width:400%;
+margin:0px;
+left:0px;
+animation:20s cherry infinite;
+}
+@keyframes cherry
+
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<tr><td bg color="red"><b><i>USERNAME</i></b></td><td> <input type='text' name='uname'></td></tr>
+<tr><td bg color="orange"><b><i>PASSWORD</i></b></td><td> <input type='password' name='pword'></td></tr>

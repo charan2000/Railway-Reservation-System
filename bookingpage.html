@@ -1,0 +1,41 @@
+<html>
+<head><title>regestration page</title></head>
+<script>
+function fun()
+{
+var a=confirm('Press enter to Confirm')
+var a=confirm('Your Ticket has been Booked')
+var a=confirm('Information has been sent to your E-mail')
+}
+function blank(){
+  if(document.getElementById('fname').value == "")
+{
+alert('Please Enter Your First Name')
+return false;
+}
+
+}
+</script>
+
+<body bgcolor='silver'>
+<h1 align='center' style='font-family:Monotype Corsiva;font-size:30px; color:teal;'>Welcome to Ticket Booking </h1>
+
+<form action="#" method="post" onsubmit="return blank()">
+<center>
+<table border='1' height='200' width='370' bgcolor='white'>
+<tr><td><p style='font-family:constania; font-size:20px;'><b>Enter First name</b></p></td><td><input type='text' name='fname'></td><tr>
+<tr><td><p style='font-family:constania; font-size:20px;'><b>Enter Last name</b></p></td><td><input type='text' name='lname'></td><tr>
+<tr><td><p style='font-family:constania; font-size:20px;'><b>Phone No.</b></p></td><td><input type='number' value='phnumber'></td></tr>
+<tr><td><p style='font-family:constania; font-size:20px;'><b>Gender</b></p></td><td><input type='radio' value='M' name='G'>Male<br>
+              <input type='radio' value='F' name='G'>Female
+              </td></tr>                    
+<tr><td><p style='font-family:constania; font-size:20px;'><b>Email</b></p></td><td><input type='email' name='email'></td><tr>
+<tr><td><p style='font-family:constania; font-size:20px;'><b>Select No.of Passengers</b></p></td>
+<td><input type='number' name='quantity' min=1 max=5>&nbsp;&nbsp;&nbsp;
+<input type='submit' value='SUBMIT' onclick='fun()'></td></tr>
+</table>
+</center>
+</form>
+<p style='font-size:20px; font-family:arial;' align='center'>Copyright &copy; </p>
+</body>
+</html>
